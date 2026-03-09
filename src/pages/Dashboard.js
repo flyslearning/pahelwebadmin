@@ -123,7 +123,7 @@ const Dashboard = ({ session }) => {
                 </div>
                 <div className="glass-card" style={{borderLeft: '5px solid var(--success)'}}>
                     <span className="stat-label">Successful Rides</span>
-                    <span className="stat-value" style={{color: 'var(--success)'}}>{stats.completedToday}</span>
+                    <span className="stat-value" style={{color: 'var(--success)'}}>{stats.completed}</span>
                     <ShieldCheck className="stat-icon" />
                 </div>
             </div>
